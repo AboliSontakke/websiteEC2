@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.jpg" alt="Aboli Sontakke" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aboli Sachin SOntakke">Aboli Sontakke</h1>
+
+          <p class="title"> Java FullStack developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="abolisontakke04@gmail.com" class="contact-link">abolisontakke04</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">9527910479</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-02-19">February 19, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pimpri Chinchwad Pune</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      <ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://www.instagram.com/yourusername" target="_blank" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/aboli-sachin-s-250684259" target="_blank" class="social-link">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://wa.me/919527910479" target="_blank" class="social-link">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
+  </li>
+
+</ul>
+
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Aspiring software engineer seeking an opportunity to apply expertise in Java,
+           web technologies, and full-stack development. Passionate about creating impactful 
+           solutions, enhancing user experience, and contributing to organizational success.
+           
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+  - service, hobbies & activities
+-->
+
+<section class="service">
+
+  <h3 class="h3 service-title">Crafting, Creating & Celebrating Achievements</h3>
+
+
+  <ul class="service-list">
+
+    <!-- Services -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Design</h4>
+        <p class="service-item-text">
+          Creating modern and user-friendly designs at a professional level.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Development</h4>
+        <p class="service-item-text">
+          High-quality, scalable websites and applications with clean code.
+        </p>
+      </div>
+    </li>
+
+    <!-- Hobbies -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.frh-1a6xyl-xW5JyhsiGLAHaHa?w=1200&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3" alt="music icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Music</h4>
+        <p class="service-item-text">
+          I love listening to soulful music and exploring new genres while working.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://th.bing.com/th/id/R.99b730cd93b44bfda6f0464ca19eaf0a?rik=HFUT2NQtl3wqqw&riu=http%3a%2f%2fcdn.mos.cms.futurecdn.net%2ffyd53Kecdj4YC9rTKD86XZ.jpg&ehk=BOgMItPfsibY1zfKEb5Vd4L8sdl5YJlMexDxpCso76M%3d&risl=&pid=ImgRaw&r=0" alt="travel icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Travel & Photography</h4>
+        <p class="service-item-text">
+          Exploring new places and capturing moments through my lens.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.i58xfpxbEckZaazD9FhhoAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="reading icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Reading</h4>
+        <p class="service-item-text">
+          Passionate about reading books on technology, self-growth, and creativity.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/5135/5135059.png" alt="organizing icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Organizing & Decoration</h4>
+        <p class="service-item-text">
+          Enjoy organizing living spaces and experimenting with interior decoration.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.p9AKvxNcO4VwkGrDFL5u_AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="gardening icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Gardening</h4>
+        <p class="service-item-text">
+          Sustainable plant care and creating green environments that bring positivity.
+        </p>
+      </div>
+    </li>
+
+    <!-- Extra Activities -->
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="https://thefrontlineacademy.com/wp/wp-content/uploads/2020/08/cocurricular.png" alt="achievement icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Co-Curricular Activities</h4>
+       <!-- Make sure you include Font Awesome in your <head> -->
+<!-- Font Awesome link (add in <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<h3 class="h3 service-title">Highlights & Achievements</h3>
+
+<p class="service-item-text">
+  <i class="fas fa-music" style="color:#ff4757;"></i> Tata Innovate Hackathon – Proposed music-based innovation. <br>
+  
+  <i class="fas fa-leaf" style="color:#2ecc71;"></i> Finalist in Sustainable Solutions Competition. <br>
+  
+  <i class="fas fa-award" style="color:#f1c40f;"></i> SCERT Essay Competition Winner. <br>
+  
+  <i class="fas fa-hands-helping" style="color:#e67e22;"></i> Volunteer at Old Age Home (College Seva Activity). <br>
+  
+  <i class="fas fa-code" style="color:#3498db;"></i> Member of College Coding Club & Technical Quiz participant. <br>
+  
+  <i class="fas fa-users" style="color:#9b59b6;"></i> Cultural Fest Coordinator – managed event schedules and teamwork.
+</p>
+
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pimpri Chinchwad College Of Engineering</h4>
+
+              <span>2022-2026</span>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jai Hind High School And Junior College</h4>
+
+              <span>2021-2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Laxmibai Tapkir Secondary School</h4>
+
+              <span>2019-2020</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+       <section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Experience</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+  <h4 class="h4 timeline-item-title">Software Development Intern – Internship (BrainChain)</h4>
+  <span>May 2025 – July 2025</span>
+  <p class="timeline-text">
+    Assisted in <strong>API integration</strong> and backend feature implementation to enhance platform functionality. 
+    Collaborated with the engineering team on feature design, testing, and deployment. 
+    Participated in <strong>code reviews</strong> while following best practices for maintainable and scalable code.
+  </p>
+</li>
+
+<li class="timeline-item">
+  <h4 class="h4 timeline-item-title">Java Programming Development Intern – Internship (Codetech IT Solutions)</h4>
+  <span>Jul 2024 – Aug 2024</span>
+  <p class="timeline-text">
+    Designed and developed <strong>Java applications</strong> applying OOP principles and modular coding practices. 
+    Created and maintained <strong>database connectivity with JDBC and MySQL</strong>. 
+    Tested and debugged applications to ensure smooth performance and error handling. 
+    Improved application efficiency by <strong>optimizing algorithms and database queries</strong>.
+  </p>
+</li>
+
+
+  </ol>
+</section>
+
+<section class="skill">
+
+  <h3 class="h3 skills-title">My skills</h3>
+
+  <ul class="skills-list content-card">
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Frontend (HTML, CSS, JS, React, Bootstrap)</h5>
+        <data value="90">95%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Backend (Java, Node.js, Express)</h5>
+        <data value="90">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">Database (MySQL, MongoDB)</h5>
+        <data value="75">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 75%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <h5 class="h5">UI/UX Design (Figma, Responsive Design)</h5>
+        <data value="70">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;"></div>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+</article>
+
+<!--
+  - #PORTFOLIO
+-->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+      <li class="filter-item"><button data-filter-btn>Applications</button></li>
+      <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Web Design</button></li>
+        <li class="select-item"><button data-select-item>Applications</button></li>
+        <li class="select-item"><button data-select-item>Web Development</button></li>
+      </ul>
+    </div>
+
+   
+          <ul class="project-list">
+
+  <!-- E-Commerce Platform -->
+  <li class="project-item active" data-filter-item data-category="web development">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.kGd592lOVcSCCIrDHRjWvgHaF7?w=800&h=641&rs=1&pid=ImgDetMain&o=7&rm=3" alt="E-Commerce Platform" loading="lazy">
+      </figure>
+      <h3 class="project-title">E-Commerce Platform</h3>
+      <p class="project-category">Java | HTML | CSS | SQL | JDBC | Swing</p>
+    </a>
+  </li>
+
+  <!-- Food Order System -->
+  <li class="project-item active" data-filter-item data-category="applications">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="https://i.pinimg.com/originals/95/33/1c/95331c10db63928fca2420865446fb62.jpg" alt="Food Order System" loading="lazy">
+      </figure>
+      <h3 class="project-title">Food Order System</h3>
+      <p class="project-category">Express.js | React | Node.js</p>
+    </a>
+  </li>
+
+  <!-- OptiRoute Platform -->
+  <li class="project-item active" data-filter-item data-category="applications">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="https://wallpapers.com/images/hd/orange-food-delivery-gps-art-m1rjda6nn4crxb3e.jpg" alt="OptiRoute Platform" loading="lazy">
+      </figure>
+      <h3 class="project-title">OptiRoute Platform</h3>
+      <p class="project-category">Java | DSA | HTML | CSS | Swing</p>
+    </a>
+  </li>
+
+
+  <!-- Mood-Based Music Player -->
+  <li class="project-item active" data-filter-item data-category="web design">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="https://img.freepik.com/premium-vector/music-office-concept-business-character-people_9111-130.jpg" alt="Mood-Based Music Player" loading="lazy">
+      </figure>
+      <h3 class="project-title">Mood-Based Music Player</h3>
+      <p class="project-category">HTML | CSS | JavaScript | Flask | YouTube API</p>
+    </a>
+  </li>
+
+</ul>
+
+     
+
+
+
+
+    </ul> <!-- project-list -->
+
+</section> <!-- ✅ close projects section -->
+
+</article> <!-- ✅ close portfolio article properly -->
+
+
+
+<!--
+  - #CONTACT
+-->
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header> 
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="mailto:abolisontakke04@gmail.com" method="POST" enctype="text/plain" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+
+  </section>
+
+</article>
+
+      
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+<script>
+  async function loadPortfolio() {
+    try {
+      const response = await fetch("http://localhost:5000/api/portfolio");
+      const data = await response.json();
+
+      // Example: Fill dynamic data
+      document.getElementById("name").innerText = data.name;
+      document.getElementById("title").innerText = data.title;
+      document.getElementById("about").innerText = data.about;
+
+      // Projects
+      const projectList = document.getElementById("projects");
+      projectList.innerHTML = "";
+      data.projects.forEach(p => {
+        const li = document.createElement("li");
+        li.innerText = `${p.name} - ${p.description}`;
+        projectList.appendChild(li);
+      });
+
+      // Contact
+      document.getElementById("email").innerText = data.contact.email;
+      document.getElementById("phone").innerText = data.contact.phone;
+
+    } catch (err) {
+      console.error("Error loading portfolio:", err);
+    }
+  }
+
+  loadPortfolio();
+</script>
+<h1 id="name">[Your Name]</h1>
+<h2 id="title">[Your Title]</h2>
+<p id="about">[About you text]</p>
+
+<h3>Projects</h3>
+<ul id="projects"></ul>
+
+<h3>Contact</h3>
+<p>Email: <span id="email"></span></p>
+<p>Phone: <span id="phone"></span></p>
+
+
+</html>
